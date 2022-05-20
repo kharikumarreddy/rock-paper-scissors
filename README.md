@@ -1,11 +1,7 @@
 # Rock-Paper-and-Scissors-Game
 -Fun game with good user expereince
 
-# Group Members
-1. Chaitanya Bhargav N 
-2. Darshan Ghorpade
-3. Abhitesh Kumar
-4. Tushar Jayant
+
 
 # Azure services used in project 
 1. Azure Static Web App
