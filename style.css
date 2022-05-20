@@ -1,0 +1,441 @@
+
+
+.background1{
+    background-color: rgb(255, 153, 0);
+    height: 100%;
+    margin-top: none;
+}
+
+.test{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0%;
+}
+
+.test2{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+
+.ulist{
+    color:white;
+}
+.videosection{
+    text-align: center;
+    text-decoration: underline;
+    padding-left: 80px;
+    color: white;
+}
+.video{
+    margin-left: 600px;
+    margin-right: 200px;
+    height: 300px;
+    width: 400px;
+    
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Startingbutton
+{
+    font-family: Bree Serif;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.bottom{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.playerscore{
+    background-color: blue;
+    color: white;
+    font-family: Bree Serif;
+    border-radius: 20px;
+    padding: 20px;
+}
+.computerscore{
+    background-color: blue;
+    color: white;
+    font-family: Bree Serif;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+}
+.rounds{
+    background-color: blue;
+    color: white;
+    font-family: Bree Serif;
+    border-radius: 20px;
+    padding: 20px;
+}
+.score h1{
+    font-size: 30px;
+}
+
+.score p{
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    
+
+}
+
+.background2{
+    background-color: yellowgreen;
+    height: 100%;
+}
+
+.hands,.choose{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+.rock{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+
+.rockimage{
+    height: 200px;
+    width: 300px;
+    
+}
+
+.paper{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+
+.paperimage{
+    height: 200px;
+    width: 300px;
+   
+}
+
+.secondpage{
+    background-color: yellowgreen;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 20px;
+   
+}
+.scissors
+{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    
+}
+
+.scissorsimage
+{
+    height: 200px;
+    width: 300px;
+   
+    
+}
+
+.rockpara{
+    font-size: 20px;
+}
+
+.paperpara{
+    font-size: 20px;
+}
+
+.scissorspara{
+    font-size: 20px;
+}
+
+.playerhand{
+    height: 135px;
+    width: 135px;
+    margin-top: 0%;
+   
+}
+.computerhand{
+    height: 250px;
+    width: 250px;
+    margin-top: 25px;
+    
+}
+
+.h2player{
+    font-family: Bree Serif;
+    text-decoration: underline;
+    margin-bottom: 110px;
+    margin-top: 0%;
+}
+.h2computer{
+    font-family: Bree Serif;
+    text-decoration: underline;
+    margin-bottom: 0%;
+    
+}
+
+
+
+@keyframes shakeplayer
+{
+    0%{
+        transform:  translateY(0px);
+    }
+    15%{
+        transform:  translateY(-50px);
+    }
+    25%{
+        transform:  translateY(0px);
+    }
+    35%{
+        transform:  translateY(-50px);
+    }
+    50%{
+        transform:  translateY(0px);
+    }
+    65%{
+        transform:  translateY(-50px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    85%{
+        transform:  translateY(-50px);
+    }
+    100%{
+        transform:  translateY(0px);
+    }
+}
+@keyframes shakecomputer {
+    0%{
+        transform: translateY(0px);
+    }
+    15%{
+        transform:  translateY(-50px);
+    }
+    25%{
+        transform:  translateY(0px);
+    }
+    35%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    65%{
+        transform:  translateY(-50px);
+    }
+    75%{
+        transform:  translateY(0px);
+    }
+    85%{
+        transform:  translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+
+.thirdheading,.fourthheading,.fifthheading{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.thirdpage{
+    position: absolute;
+    background-color:green;
+     height: 645px;
+    text-align: center;
+    width:1100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+    border-radius: 20px;
+
+}
+
+.playerwin{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.winemoji{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.winpara{
+    font-size: 40px;
+    font-family: Bree Serif;
+    color: yellow;
+    margin-top: 30px;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.gameendwinbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.gameendlosebuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.gameendtiebuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.homebuttonwin{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.fourthpage{
+    position: absolute;
+    background-color:red;
+     height: 645px;
+    text-align: center;
+    width:1100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+    border-radius: 20px;
+}
+
+.playerlose{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.loseemoji{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.losepara{
+    font-size: 40px;
+    font-family: Bree Serif;
+    padding: 50px;
+    color: yellow;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.homebuttonlose{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+.fifthpage{
+    position: absolute;
+    background-color:orange;
+    height: 645px;
+    text-align: center;
+    width:1100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+    border-radius: 20px;
+}
+
+.playertie{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.tieemoji{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.tiepara{
+    font-size: 40px;
+    font-family: Bree Serif;
+    padding: 50px;
+    color: yellow;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.homebuttontie{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.ulist{
+    font-size: 30px;
+}
+div.fadeout{
+    opacity: 0;
+    pointer-events: none;
+    
+    
+}
+div.fadein{
+    opacity: 1;
+    pointer-events: all;
+    transition: 2s;
+    
+}
+
+
