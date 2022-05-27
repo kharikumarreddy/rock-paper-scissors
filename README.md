@@ -11,7 +11,7 @@
 
 # [Go to Rock,Paper and Scissors game](https://ambitious-forest-0c2065710.1.azurestaticapps.net)
 
-# [Go to Video Demo](https://drive.google.com/file/d/1fgq3RPLLrgZPxfozrEcoP8l-C-C7d6Ps/view?usp=sharing)
+# [Go to Video Demo](https://drive.google.com/file/d/1rCs5lmqfOxN59XMJBzu8pOW__masBHKt/view?usp=drivesdk)
 
 # Screen Captures of project
 <img src="https://github.com/nallapu27/Rock-Paper-and-Scissors-Game/blob/main/Game%20screenshots/Game%20screenshots/Game%20Home%20page.png" height=400 width=1000 />
